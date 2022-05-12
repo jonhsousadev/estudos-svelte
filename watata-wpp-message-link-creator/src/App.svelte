@@ -8,8 +8,8 @@
 		<p>Let's create your Whatsapp message?</p>
 	</aside>
 	<main>
-		<h1>Hello {name}!</h1>
-		<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+		<h1>Insert your data and create your message</h1>
+		<p>here will be the fields that will compose the message</p>
 	</main>
 </div>
 
