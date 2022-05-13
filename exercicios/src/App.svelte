@@ -1,6 +1,7 @@
 <script>
 	import Exercicio1 from './exercicios/Exercicio1.svelte'
 	import Exercicio2 from './exercicios/Exercicio2.svelte'
+	import Exercicio3 from './exercicios/Exercicio3.svelte'
 	export let name;
 </script>
 
@@ -8,8 +9,10 @@
 	<p>Executando exercício 1:</p>
 	<Exercicio1 {name}></Exercicio1>
 	<hr>
-	<p>Executando exercício 1:</p>
+	<p>Executando exercício 2:</p>
 	<Exercicio2></Exercicio2>
+	<p>Executando exercício 3:</p>
+	<Exercicio3 value1="5" value2="2"></Exercicio3>
 	<hr>
 </main>
 
