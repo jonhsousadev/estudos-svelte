@@ -1,5 +1,17 @@
 <script>
 	export let name;
+	let phone = '85991633993'
+	let greeting = 'Hello'
+	let personName = 'Jonh'
+	let message = 'this is a test'
+	let generatedMessage = ''
+
+	const generateMessage = () => {
+		generatedMessage = `https://wa.me/${phone}?text=${greeting} ${personName}%0${message}`
+	}
+
+	generateMessage()
+
 </script>
 
 <div id="container">
@@ -9,7 +21,7 @@
 	</aside>
 	<main>
 		<h1>Insert your data and create your message</h1>
-		<p>here will be the fields that will compose the message</p>
+		<a href={generatedMessage}>{generatedMessage}</a>
 	</main>
 </div>
 
